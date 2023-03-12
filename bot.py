@@ -21,7 +21,7 @@ async def set_commands(bot: Bot):
         BotCommand(command='add', description='💳Додати нову картку/гаманець'),
         BotCommand(command='edit', description='📝Редагувати картки/гаманці'),
         BotCommand(command='check', description='🗂Переглянути мої картки/гаманці'),
-        BotCommand(command='how_to_use', description='🗂Переглянути мої картки/гаманці'),
+        # BotCommand(command='how_to_use', description='🗂Переглянути мої картки/гаманці'),
     ]
 
     await bot.set_my_commands(commands=commands, scope=BotCommandScopeDefault())
